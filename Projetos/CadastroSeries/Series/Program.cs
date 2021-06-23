@@ -87,6 +87,8 @@ namespace Series
 
                             break;
                         }
+                        default:
+                            throw new ArgumentOutOfRangeException();
                     }
                 }
 
