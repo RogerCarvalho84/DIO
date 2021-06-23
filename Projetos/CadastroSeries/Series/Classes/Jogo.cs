@@ -1,14 +1,15 @@
 using System;
 
-
 namespace Series
 {
-    public class Serie : EntidadeBase
+    public class Jogo : EntidadeBase
     {
         // Atributos
-        private GeneroSeries Genero { get; set; }
+        private GeneroJogos Genero { get; set; }
+        
+        private string Titulo { get; set; }
 
-        private string Titulo { get; set; }  
+        private Plataformas Plataforma { get; set; }
 
         private string Descricao { get; set; }
 
@@ -17,11 +18,12 @@ namespace Series
         private bool Excluido { get; set; }
 
         //Métodos
-        public Serie(int id, GeneroSeries genero, string titulo, string descricao, int ano)
+        public Jogo(int id, GeneroJogos genero, string titulo, Plataformas plataforma, string descricao, int ano)
         {
             this.Id = id;
             this.Genero = genero;
             this.Titulo = titulo;
+            this.Plataforma = plataforma;
             this.Descricao = descricao;
             this.Ano = ano;
             this.Excluido = false;
@@ -32,11 +34,12 @@ namespace Series
             string retorno = "" + Environment.NewLine;
             retorno += "Gênero: " + this.Genero + Environment.NewLine;
             retorno += "Título: " + this.Titulo + Environment.NewLine;
+            retorno += "Plataforma: " + this.Plataforma + Environment.NewLine;
             retorno += "Ano: " + this.Ano + Environment.NewLine;
             retorno += "Descrição: " + this.Descricao + Environment.NewLine;
             retorno += "Excluído: " + this.Excluido + Environment.NewLine;
             return retorno;
-            
+
         }
 
         public string retornaTitulo()
@@ -58,6 +61,5 @@ namespace Series
         {
             this.Excluido = true;
         }
-         
     }
 }
