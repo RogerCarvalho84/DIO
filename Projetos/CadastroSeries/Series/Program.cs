@@ -30,7 +30,7 @@ namespace Series
                                         ListarSerie();
                                         break;
                                     case "2":
-                                        InserirSerie();
+                                        InserirSerie(-1);
                                         break;
                                     case "3":
                                         AtualizarSerie();
@@ -65,7 +65,7 @@ namespace Series
                                         ListarJogo();
                                         break;
                                     case "2":
-                                        InserirJogo();
+                                        InserirJogo(-1);
                                         break;
                                     case "3":
                                         AtualizarJogo();
@@ -132,38 +132,63 @@ namespace Series
         }
 
 
-        private static void InserirSerie()
+        private static void InserirSerie(int indice)
         {
             Console.WriteLine("Inserir nova série");
+
+            var auxNovo = true;
+
 
             foreach (int i in Enum.GetValues(typeof(GeneroSeries)))
             {
                 Console.WriteLine("{0} - {1}", i, Enum.GetName(typeof(GeneroSeries), i));
             }
+            Console.WriteLine();
             Console.WriteLine("Digite o gênero entre as opções acima: ");
             int entradaGenero = int.Parse(Console.ReadLine());
 
+            Console.WriteLine();
             Console.WriteLine("Digite o título da série: ");
             string entradaTitulo = Console.ReadLine();
  
+            Console.WriteLine();
             Console.WriteLine("Digite o ano de início da série: ");
             int entradaAno = int.Parse(Console.ReadLine());
 
+            Console.WriteLine();
             Console.WriteLine("Digite a descrição da série: ");
             string entradaDescricao = Console.ReadLine();
 
-            Serie novaSerie = new Serie(id: repositorioS.ProximoId(),
+             if(indice < 0)
+            {
+                indice = repositorioS.ProximoId();
+            }
+            else
+            {
+                auxNovo = false;
+            }
+
+            Serie novaSerie = new Serie(id: indice,
                                         genero: (GeneroSeries)entradaGenero,
                                         titulo: entradaTitulo,
                                         ano: entradaAno,
                                         descricao: entradaDescricao);
 
+            if(!auxNovo)
+            {
+                repositorioS.Atualiza(indice,novaSerie);
+                Console.WriteLine("Série atualizada com sucesso!");
+                return;
+            }
             repositorioS.Insere(novaSerie);
+            Console.WriteLine("Série inserida com sucesso!");
             
         }
 
-         private static void InserirJogo()
+         private static void InserirJogo(int indice)
         {
+            var auxNovo = true;
+
             Console.WriteLine("Inserir novo jogo");
 
             foreach (int i in Enum.GetValues(typeof(GeneroJogos)))
@@ -173,6 +198,7 @@ namespace Series
             Console.WriteLine("Digite o gênero entre as opções acima: ");
             int entradaGenero = int.Parse(Console.ReadLine());
 
+            Console.WriteLine();
             Console.WriteLine("Digite o título do jogo: ");
             string entradaTitulo = Console.ReadLine();
 
@@ -180,55 +206,51 @@ namespace Series
             {
                 Console.WriteLine("{0} - {1}", i, Enum.GetName(typeof(Plataformas), i));
             }
+            Console.WriteLine();
             Console.WriteLine("Digite a plataforma entre as opções acima: ");
             int entradaPlataforma = int.Parse(Console.ReadLine());
  
+            Console.WriteLine();
             Console.WriteLine("Digite o ano de lançamento do jogo: ");
             int entradaAno = int.Parse(Console.ReadLine());
 
+            Console.WriteLine();
             Console.WriteLine("Digite a descrição do jogo: ");
             string entradaDescricao = Console.ReadLine();
 
-            Jogo novoJogo = new Jogo(id: repositorioJ.ProximoId(),
+            if(indice < 0)
+            {
+                indice = repositorioJ.ProximoId();
+            }
+            else
+            {
+                auxNovo = false;
+            }
+            Jogo novoJogo = new Jogo(   id: indice,
                                         genero: (GeneroJogos)entradaGenero,
                                         titulo: entradaTitulo,
                                         plataforma: (Plataformas)entradaPlataforma,
                                         ano: entradaAno,
                                         descricao: entradaDescricao);
 
+            if(!auxNovo)
+            {
+                repositorioJ.Atualiza(indice,novoJogo);
+                Console.WriteLine("Jogo atualizado com sucesso!");
+                return;
+            }
             repositorioJ.Insere(novoJogo);
+            Console.WriteLine("Jogo inserido com sucesso!");
             
         }
+        
 
         private static void AtualizarSerie()
         {
             Console.WriteLine("Digite o ID da série: ");
             int indiceSerie = int.Parse(Console.ReadLine());
 
-            foreach (int i in Enum.GetValues(typeof(GeneroSeries)))
-            {
-                Console.WriteLine("{0} - {1}", i, Enum.GetName(typeof(GeneroSeries), i));
-            }
-            Console.WriteLine("Digite o gênero entre as opções acima: ");
-            int entradaGenero = int.Parse(Console.ReadLine());
-
-            Console.WriteLine("Digite o título da série: ");
-            string entradaTitulo = Console.ReadLine();
- 
-            Console.WriteLine("Digite o ano de início da série: ");
-            int entradaAno = int.Parse(Console.ReadLine());
-
-            Console.WriteLine("Digite a descrição da série: ");
-            string entradaDescricao = Console.ReadLine();
-
-            Serie atualizaSerie = new Serie(id: indiceSerie,
-                                        genero: (GeneroSeries)entradaGenero,
-                                        titulo: entradaTitulo,
-                                        ano: entradaAno,
-                                        descricao: entradaDescricao);
-
-            repositorioS.Atualiza(indiceSerie, atualizaSerie);
-
+            InserirSerie(indiceSerie);
         }
 
          private static void AtualizarJogo()
@@ -236,37 +258,7 @@ namespace Series
             Console.WriteLine("Digite o ID do jogo: ");
             int indiceJogo = int.Parse(Console.ReadLine());
 
-            foreach (int i in Enum.GetValues(typeof(GeneroJogos)))
-            {
-                Console.WriteLine("{0} - {1}", i, Enum.GetName(typeof(GeneroJogos), i));
-            }
-            Console.WriteLine("Digite o gênero entre as opções acima: ");
-            int entradaGenero = int.Parse(Console.ReadLine());
-
-            Console.WriteLine("Digite o título do jogo: ");
-            string entradaTitulo = Console.ReadLine();
-
-            foreach (int i in Enum.GetValues(typeof(Plataformas)))
-            {
-                Console.WriteLine("{0} - {1}", i, Enum.GetName(typeof(Plataformas), i));
-            }
-            Console.WriteLine("Digite a plataforma entre as opções acima: ");
-            int entradaPlataforma = int.Parse(Console.ReadLine());
- 
-            Console.WriteLine("Digite o ano de lançamento do jogo: ");
-            int entradaAno = int.Parse(Console.ReadLine());
-
-            Console.WriteLine("Digite a descrição do jogo: ");
-            string entradaDescricao = Console.ReadLine();
-
-            Jogo atualizaJogo = new Jogo(id: indiceJogo,
-                                        genero: (GeneroJogos)entradaGenero,
-                                        plataforma: (Plataformas)entradaPlataforma,
-                                        titulo: entradaTitulo,
-                                        ano: entradaAno,
-                                        descricao: entradaDescricao);
-
-            repositorioJ.Atualiza(indiceJogo, atualizaJogo);
+            InserirJogo(indiceJogo);
 
         }
         private static void ExcluirSerie()
@@ -281,6 +273,7 @@ namespace Series
             if(resposta.ToUpper() == "S")
             {
                 repositorioS.Exclui(indiceSerie);
+                Console.WriteLine("Série excluída com sucesso!");
             }
             
         }
@@ -297,6 +290,7 @@ namespace Series
             if(resposta.ToUpper() == "S")
             {
                 repositorioJ.Exclui(indiceJogo);
+                Console.WriteLine("Jogo excluído com sucesso!");
             }
             
         }
@@ -311,7 +305,6 @@ namespace Series
 
             Console.WriteLine(serie);
         }
-
 
         private static void VisualisarJogo()
         {
@@ -339,7 +332,6 @@ namespace Series
             Console.WriteLine();
 
             string opcaoUsuario = Console.ReadLine().ToUpper();
-            Console.WriteLine();
             return opcaoUsuario;
         }
 
@@ -359,7 +351,6 @@ namespace Series
             Console.WriteLine();
 
             string opcaoUsuario = Console.ReadLine().ToUpper();
-            Console.WriteLine();
             return opcaoUsuario;
         }
 
@@ -376,6 +367,7 @@ namespace Series
 
             string opcaoUsuario = Console.ReadLine().ToUpper();
             Console.WriteLine();
+            Console.Clear();
             return opcaoUsuario;
 
         }
