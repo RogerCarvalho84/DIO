@@ -1,0 +1,16 @@
+C:\Workspace\dotnet\DIO\Desafio01\DividindoXPorY\bin\Debug\net5.0\DividindoXPorY.exe
+C:\Workspace\dotnet\DIO\Desafio01\DividindoXPorY\bin\Debug\net5.0\DividindoXPorY.deps.json
+C:\Workspace\dotnet\DIO\Desafio01\DividindoXPorY\bin\Debug\net5.0\DividindoXPorY.runtimeconfig.json
+C:\Workspace\dotnet\DIO\Desafio01\DividindoXPorY\bin\Debug\net5.0\DividindoXPorY.runtimeconfig.dev.json
+C:\Workspace\dotnet\DIO\Desafio01\DividindoXPorY\bin\Debug\net5.0\DividindoXPorY.dll
+C:\Workspace\dotnet\DIO\Desafio01\DividindoXPorY\bin\Debug\net5.0\ref\DividindoXPorY.dll
+C:\Workspace\dotnet\DIO\Desafio01\DividindoXPorY\bin\Debug\net5.0\DividindoXPorY.pdb
+C:\Workspace\dotnet\DIO\Desafio01\DividindoXPorY\obj\Debug\net5.0\DividindoXPorY.csproj.AssemblyReference.cache
+C:\Workspace\dotnet\DIO\Desafio01\DividindoXPorY\obj\Debug\net5.0\DividindoXPorY.GeneratedMSBuildEditorConfig.editorconfig
+C:\Workspace\dotnet\DIO\Desafio01\DividindoXPorY\obj\Debug\net5.0\DividindoXPorY.AssemblyInfoInputs.cache
+C:\Workspace\dotnet\DIO\Desafio01\DividindoXPorY\obj\Debug\net5.0\DividindoXPorY.AssemblyInfo.cs
+C:\Workspace\dotnet\DIO\Desafio01\DividindoXPorY\obj\Debug\net5.0\DividindoXPorY.csproj.CoreCompileInputs.cache
+C:\Workspace\dotnet\DIO\Desafio01\DividindoXPorY\obj\Debug\net5.0\DividindoXPorY.dll
+C:\Workspace\dotnet\DIO\Desafio01\DividindoXPorY\obj\Debug\net5.0\ref\DividindoXPorY.dll
+C:\Workspace\dotnet\DIO\Desafio01\DividindoXPorY\obj\Debug\net5.0\DividindoXPorY.pdb
+C:\Workspace\dotnet\DIO\Desafio01\DividindoXPorY\obj\Debug\net5.0\DividindoXPorY.genruntimeconfig.cache

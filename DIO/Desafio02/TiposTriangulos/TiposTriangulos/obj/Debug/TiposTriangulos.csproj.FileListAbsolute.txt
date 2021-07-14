@@ -1,0 +1,7 @@
+C:\Workspace\dotnet\DIO\Desafio02\TiposTriangulos\TiposTriangulos\obj\Debug\TiposTriangulos.csproj.CoreCompileInputs.cache
+C:\Workspace\dotnet\DIO\Desafio02\TiposTriangulos\TiposTriangulos\bin\Debug\TiposTriangulos.exe.config
+C:\Workspace\dotnet\DIO\Desafio02\TiposTriangulos\TiposTriangulos\bin\Debug\TiposTriangulos.exe
+C:\Workspace\dotnet\DIO\Desafio02\TiposTriangulos\TiposTriangulos\bin\Debug\TiposTriangulos.pdb
+C:\Workspace\dotnet\DIO\Desafio02\TiposTriangulos\TiposTriangulos\obj\Debug\TiposTriangulos.exe
+C:\Workspace\dotnet\DIO\Desafio02\TiposTriangulos\TiposTriangulos\obj\Debug\TiposTriangulos.pdb
+C:\Workspace\dotnet\DIO\Desafio02\TiposTriangulos\TiposTriangulos\obj\Debug\TiposTriangulos.csproj.AssemblyReference.cache

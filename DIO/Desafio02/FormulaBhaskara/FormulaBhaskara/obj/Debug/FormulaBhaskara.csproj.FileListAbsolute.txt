@@ -1,0 +1,7 @@
+C:\Workspace\dotnet\DIO\Desafio02\FormulaBhaskara\FormulaBhaskara\obj\Debug\FormulaBhaskara.csproj.CoreCompileInputs.cache
+C:\Workspace\dotnet\DIO\Desafio02\FormulaBhaskara\FormulaBhaskara\bin\Debug\FormulaBhaskara.exe.config
+C:\Workspace\dotnet\DIO\Desafio02\FormulaBhaskara\FormulaBhaskara\bin\Debug\FormulaBhaskara.exe
+C:\Workspace\dotnet\DIO\Desafio02\FormulaBhaskara\FormulaBhaskara\bin\Debug\FormulaBhaskara.pdb
+C:\Workspace\dotnet\DIO\Desafio02\FormulaBhaskara\FormulaBhaskara\obj\Debug\FormulaBhaskara.exe
+C:\Workspace\dotnet\DIO\Desafio02\FormulaBhaskara\FormulaBhaskara\obj\Debug\FormulaBhaskara.pdb
+C:\Workspace\dotnet\DIO\Desafio02\FormulaBhaskara\FormulaBhaskara\obj\Debug\FormulaBhaskara.csproj.AssemblyReference.cache

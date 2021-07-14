@@ -1,0 +1,7 @@
+C:\Workspace\dotnet\DIO\Desafio02\NotasMoedas\NotasMoedas\bin\Debug\NotasMoedas.exe.config
+C:\Workspace\dotnet\DIO\Desafio02\NotasMoedas\NotasMoedas\bin\Debug\NotasMoedas.exe
+C:\Workspace\dotnet\DIO\Desafio02\NotasMoedas\NotasMoedas\bin\Debug\NotasMoedas.pdb
+C:\Workspace\dotnet\DIO\Desafio02\NotasMoedas\NotasMoedas\obj\Debug\NotasMoedas.csproj.AssemblyReference.cache
+C:\Workspace\dotnet\DIO\Desafio02\NotasMoedas\NotasMoedas\obj\Debug\NotasMoedas.csproj.CoreCompileInputs.cache
+C:\Workspace\dotnet\DIO\Desafio02\NotasMoedas\NotasMoedas\obj\Debug\NotasMoedas.exe
+C:\Workspace\dotnet\DIO\Desafio02\NotasMoedas\NotasMoedas\obj\Debug\NotasMoedas.pdb
