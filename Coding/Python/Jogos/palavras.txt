@@ -1,0 +1,16 @@
+banana
+laranja
+casaco
+carro
+mesa
+cadeira
+copo
+faca
+parede
+cabelo
+perna
+lombada
+celular
+geladeira
+sapato
+
