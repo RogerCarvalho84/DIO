@@ -1,0 +1,12 @@
+C:\Workspace\dotnet\DIO\Cursos\LocalizaFrotas\Localiza.Frotas.Domain\bin\Debug\net5.0\Localiza.Frotas.Domain.deps.json
+C:\Workspace\dotnet\DIO\Cursos\LocalizaFrotas\Localiza.Frotas.Domain\bin\Debug\net5.0\Localiza.Frotas.Domain.dll
+C:\Workspace\dotnet\DIO\Cursos\LocalizaFrotas\Localiza.Frotas.Domain\bin\Debug\net5.0\ref\Localiza.Frotas.Domain.dll
+C:\Workspace\dotnet\DIO\Cursos\LocalizaFrotas\Localiza.Frotas.Domain\bin\Debug\net5.0\Localiza.Frotas.Domain.pdb
+C:\Workspace\dotnet\DIO\Cursos\LocalizaFrotas\Localiza.Frotas.Domain\obj\Debug\net5.0\Localiza.Frotas.Domain.csproj.AssemblyReference.cache
+C:\Workspace\dotnet\DIO\Cursos\LocalizaFrotas\Localiza.Frotas.Domain\obj\Debug\net5.0\Localiza.Frotas.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Workspace\dotnet\DIO\Cursos\LocalizaFrotas\Localiza.Frotas.Domain\obj\Debug\net5.0\Localiza.Frotas.Domain.AssemblyInfoInputs.cache
+C:\Workspace\dotnet\DIO\Cursos\LocalizaFrotas\Localiza.Frotas.Domain\obj\Debug\net5.0\Localiza.Frotas.Domain.AssemblyInfo.cs
+C:\Workspace\dotnet\DIO\Cursos\LocalizaFrotas\Localiza.Frotas.Domain\obj\Debug\net5.0\Localiza.Frotas.Domain.csproj.CoreCompileInputs.cache
+C:\Workspace\dotnet\DIO\Cursos\LocalizaFrotas\Localiza.Frotas.Domain\obj\Debug\net5.0\Localiza.Frotas.Domain.dll
+C:\Workspace\dotnet\DIO\Cursos\LocalizaFrotas\Localiza.Frotas.Domain\obj\Debug\net5.0\ref\Localiza.Frotas.Domain.dll
+C:\Workspace\dotnet\DIO\Cursos\LocalizaFrotas\Localiza.Frotas.Domain\obj\Debug\net5.0\Localiza.Frotas.Domain.pdb
