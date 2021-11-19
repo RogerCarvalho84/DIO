@@ -5,47 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3b44faae-5662-439f-9965-11e34b3523b7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Lib/site-packages/tests/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lib/site-packages/tests/test_all.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lib/site-packages/tests/test_certidao.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lib/site-packages/tests/test_cnh.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lib/site-packages/tests/test_cnpj.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lib/site-packages/tests/test_cns.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lib/site-packages/tests/test_cpf.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lib/site-packages/tests/test_generic.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lib/site-packages/tests/test_pis.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lib/site-packages/tests/test_renavam.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lib/site-packages/tests/test_titulo_eleitor.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lib/site-packages/validate_docbr-1.10.0.dist-info/INSTALLER" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lib/site-packages/validate_docbr-1.10.0.dist-info/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lib/site-packages/validate_docbr-1.10.0.dist-info/METADATA" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lib/site-packages/validate_docbr-1.10.0.dist-info/RECORD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lib/site-packages/validate_docbr-1.10.0.dist-info/REQUESTED" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lib/site-packages/validate_docbr-1.10.0.dist-info/WHEEL" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lib/site-packages/validate_docbr-1.10.0.dist-info/top_level.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lib/site-packages/validate_docbr/BaseDoc.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lib/site-packages/validate_docbr/CNH.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lib/site-packages/validate_docbr/CNPJ.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lib/site-packages/validate_docbr/CNS.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lib/site-packages/validate_docbr/CPF.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lib/site-packages/validate_docbr/Certidao.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lib/site-packages/validate_docbr/PIS.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lib/site-packages/validate_docbr/RENAVAM.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lib/site-packages/validate_docbr/TituloEleitoral.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lib/site-packages/validate_docbr/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lib/site-packages/validate_docbr/generic.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lib/site-packages/validdocbr-1.2.2.dist-info/INSTALLER" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lib/site-packages/validdocbr-1.2.2.dist-info/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lib/site-packages/validdocbr-1.2.2.dist-info/METADATA" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lib/site-packages/validdocbr-1.2.2.dist-info/RECORD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lib/site-packages/validdocbr-1.2.2.dist-info/REQUESTED" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lib/site-packages/validdocbr-1.2.2.dist-info/WHEEL" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lib/site-packages/validdocbr-1.2.2.dist-info/entry_points.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lib/site-packages/validdocbr-1.2.2.dist-info/top_level.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/validdocbr.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cpf_cnpj.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datas_br.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cpf.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
