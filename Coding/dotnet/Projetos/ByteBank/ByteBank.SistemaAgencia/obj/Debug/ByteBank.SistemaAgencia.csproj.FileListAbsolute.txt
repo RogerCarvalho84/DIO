@@ -8,3 +8,14 @@ C:\Users\CrisNascimento\Documents\Cursos Alura\CSharp\ProjetosCSharp\Projeto02\B
 C:\Users\CrisNascimento\Documents\Cursos Alura\CSharp\ProjetosCSharp\Projeto02\ByteBank\ByteBank.SistemaAgencia\obj\Debug\ByteBank.SistemaAgencia.csproj.CopyComplete
 C:\Users\CrisNascimento\Documents\Cursos Alura\CSharp\ProjetosCSharp\Projeto02\ByteBank\ByteBank.SistemaAgencia\obj\Debug\ByteBank.SistemaAgencia.exe
 C:\Users\CrisNascimento\Documents\Cursos Alura\CSharp\ProjetosCSharp\Projeto02\ByteBank\ByteBank.SistemaAgencia\obj\Debug\ByteBank.SistemaAgencia.pdb
+C:\Workspace\Repository\Coding\dotnet\Projetos\ByteBank\ByteBank.SistemaAgencia\bin\Debug\ByteBank.SistemaAgencia.exe.config
+C:\Workspace\Repository\Coding\dotnet\Projetos\ByteBank\ByteBank.SistemaAgencia\bin\Debug\ByteBank.SistemaAgencia.exe
+C:\Workspace\Repository\Coding\dotnet\Projetos\ByteBank\ByteBank.SistemaAgencia\bin\Debug\ByteBank.SistemaAgencia.pdb
+C:\Workspace\Repository\Coding\dotnet\Projetos\ByteBank\ByteBank.SistemaAgencia\bin\Debug\ByteBank.Modelos.dll
+C:\Workspace\Repository\Coding\dotnet\Projetos\ByteBank\ByteBank.SistemaAgencia\bin\Debug\ByteBank.Modelos.pdb
+C:\Workspace\Repository\Coding\dotnet\Projetos\ByteBank\ByteBank.SistemaAgencia\obj\Debug\ByteBank.SistemaAgencia.csproj.AssemblyReference.cache
+C:\Workspace\Repository\Coding\dotnet\Projetos\ByteBank\ByteBank.SistemaAgencia\obj\Debug\ByteBank.SistemaAgencia.csproj.CoreCompileInputs.cache
+C:\Workspace\Repository\Coding\dotnet\Projetos\ByteBank\ByteBank.SistemaAgencia\obj\Debug\ByteBank.SistemaAgencia.csproj.CopyComplete
+C:\Workspace\Repository\Coding\dotnet\Projetos\ByteBank\ByteBank.SistemaAgencia\obj\Debug\ByteBank.SistemaAgencia.exe
+C:\Workspace\Repository\Coding\dotnet\Projetos\ByteBank\ByteBank.SistemaAgencia\obj\Debug\ByteBank.SistemaAgencia.pdb
+C:\Workspace\Repository\Coding\dotnet\Projetos\ByteBank\ByteBank.SistemaAgencia\bin\Debug\ByteBank.Modelos.xml

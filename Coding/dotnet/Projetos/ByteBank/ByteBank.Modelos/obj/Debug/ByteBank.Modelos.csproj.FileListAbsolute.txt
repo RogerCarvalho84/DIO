@@ -4,3 +4,10 @@ C:\Users\CrisNascimento\Documents\Cursos Alura\CSharp\ProjetosCSharp\Projeto02\B
 C:\Users\CrisNascimento\Documents\Cursos Alura\CSharp\ProjetosCSharp\Projeto02\ByteBank\ByteBank.Modelos\obj\Debug\ByteBank.Modelos.csproj.CoreCompileInputs.cache
 C:\Users\CrisNascimento\Documents\Cursos Alura\CSharp\ProjetosCSharp\Projeto02\ByteBank\ByteBank.Modelos\obj\Debug\ByteBank.Modelos.dll
 C:\Users\CrisNascimento\Documents\Cursos Alura\CSharp\ProjetosCSharp\Projeto02\ByteBank\ByteBank.Modelos\obj\Debug\ByteBank.Modelos.pdb
+C:\Workspace\Repository\Coding\dotnet\Projetos\ByteBank\ByteBank.Modelos\bin\Debug\ByteBank.Modelos.xml
+C:\Workspace\Repository\Coding\dotnet\Projetos\ByteBank\ByteBank.Modelos\bin\Debug\ByteBank.Modelos.dll
+C:\Workspace\Repository\Coding\dotnet\Projetos\ByteBank\ByteBank.Modelos\bin\Debug\ByteBank.Modelos.pdb
+C:\Workspace\Repository\Coding\dotnet\Projetos\ByteBank\ByteBank.Modelos\obj\Debug\ByteBank.Modelos.csproj.AssemblyReference.cache
+C:\Workspace\Repository\Coding\dotnet\Projetos\ByteBank\ByteBank.Modelos\obj\Debug\ByteBank.Modelos.csproj.CoreCompileInputs.cache
+C:\Workspace\Repository\Coding\dotnet\Projetos\ByteBank\ByteBank.Modelos\obj\Debug\ByteBank.Modelos.dll
+C:\Workspace\Repository\Coding\dotnet\Projetos\ByteBank\ByteBank.Modelos\obj\Debug\ByteBank.Modelos.pdb
