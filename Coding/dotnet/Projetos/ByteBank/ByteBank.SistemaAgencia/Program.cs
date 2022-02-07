@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
+using ByteBank.SistemaAgencia.Extensoes;
+using ByteBank.SistemaAgencia.Comparadores;
 
 namespace ByteBank.SistemaAgencia
 {
@@ -14,15 +16,134 @@ namespace ByteBank.SistemaAgencia
     {
         static void Main(string[] args)
         {
+
+            var contas = new List<ContaCorrente>
+            {
+                    new ContaCorrente(1, 5697537),
+                    new ContaCorrente(458, 5697535),
+                    null,
+                    new ContaCorrente(458, 5697536),
+                    new ContaCorrente(458, 5697538),
+                    new ContaCorrente(231, 1234),
+                    new ContaCorrente(458, 99999),
+                    new ContaCorrente(999, 9999999),
+            };
+
+            // contas.Sort(); ~> Chamar implementação dada em iComparable
+
+            //contas.Sort(new ComparadorContaCorrentePorAgencia());
+
+            
+
+            var contasOrdenadas = contas
+                .Where(conta => conta != null)
+                .OrderBy(conta => conta.Numero);
+
+            foreach (var conta in contasOrdenadas)
+            {
+                    Console.WriteLine($"Conta número {conta.Numero} / Ag. {conta.Agencia}");             
+            }
+
+            Console.ReadKey();
+        }
+
+
+        static void TestaSort()
+        {
+            var nomes = new List<string>()
+            {
+                "Roger",
+                "Thamires",
+                "Nickolas",
+                "Lucas"
+            };
+
+            nomes.Sort();
+
+
+            foreach (var nome in nomes)
+            {
+                Console.WriteLine(nome);
+            };
+
+
+
+            Console.WriteLine();
+
+            var idades = new List<int>();
+
+            idades.Add(10);
+            idades.Add(92);
+
+            idades.AdicionarVarios(5, 17, 37, 32, 90, 60);
+
+            idades.Remove(5);
+
+            idades.AdicionarVarios(1, 99);
+            idades.Sort();
+
+            //ListExtensoes.AdicionarVarios(idades, 23, 42, 15, 32, 60);
+
+            for (int i = 0; i < idades.Count; i++)
+            {
+                int idade = idades[i];
+                Console.WriteLine($"Idade no índice {i}: {idade}");
+            }
+        }
+        static void TestaListaDeObject()
+        {
+
+            ListaDeObject listaDeIdades = new ListaDeObject();
+
+            listaDeIdades.Adicionar(10);
+            listaDeIdades.Adicionar(5);
+            listaDeIdades.Adicionar(17);
+
+            listaDeIdades.AdicionarVarios(16, 37, 32, 60);
+
+            for (int i = 0; i < listaDeIdades.Tamanho; i++)
+            {
+                int idade = (int)listaDeIdades[i];
+                Console.WriteLine($"Idade no índice {i}: {idade}");
+            }
+
+        }
+
+        static void TestaListaDeContaCorrente()
+        {
+            ListaDeContaCorrente lista = new ListaDeContaCorrente();
+
+            ContaCorrente contaRoger = new ContaCorrente(123, 123456);
+
+
+
+            lista.AdicionarVarios(
+                contaRoger,
+                    new ContaCorrente(458, 5697535),
+                    new ContaCorrente(458, 5697536),
+                    new ContaCorrente(458, 5697537),
+                    new ContaCorrente(458, 5697538));
+
+
+            for (int i = 0; i < lista.Tamanho; i++)
+            {
+                ContaCorrente itemAtual = lista[i];
+                Console.WriteLine($"Item na posição {i} = Conta {itemAtual.Numero} / {itemAtual.Agencia}.");
+            }
+
+
+        }
+        static void TestaArrayContaCorrente()
+        {
             ContaCorrente[] contas = new ContaCorrente[]
-                {
+               {
                     new ContaCorrente(458, 5697535),
                     new ContaCorrente(952, 1369845),
                     new ContaCorrente(126, 9687423),
                     new ContaCorrente(753, 2369857),
                     new ContaCorrente(698, 8745396)
 
-                };
+               };
 
 
 
@@ -30,10 +151,7 @@ namespace ByteBank.SistemaAgencia
             {
                 Console.WriteLine($"Conta {indice} Agência {contas[indice].Agencia} Número {contas[indice].Numero}.");
             }
-
-            Console.ReadKey();
         }
-
         static void TestaArrayInt()
         {
             //ARRAY de inteiros com 5 posições
